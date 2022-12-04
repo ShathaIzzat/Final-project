@@ -177,11 +177,11 @@ global ch
 
 
 def start():  
-    print("1. Admin Registration :")
-    print("2. Admin Login        :")
+    print("1- Registration")
+    print("2- Login")
     print()
     adminObj = Admin()
-    ch = int(input("Choose Correct option :"))
+    ch = int(input("choose corresct"))
 
     if ch != 1:
         pass
